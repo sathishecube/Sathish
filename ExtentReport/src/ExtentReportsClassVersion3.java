@@ -74,6 +74,7 @@ public class ExtentReportsClassVersion3 {
 	@AfterTest
 	public void endReport(){
 		extent.flush();
+		//This is only for testing
     }
 }
 
